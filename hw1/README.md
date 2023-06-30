@@ -1,1 +1,0 @@
-# the first homework assignment of the course
