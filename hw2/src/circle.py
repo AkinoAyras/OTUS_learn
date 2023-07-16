@@ -1,4 +1,4 @@
-from figure import Figure
+from hw2.src.figure import Figure
 import math
 
 
@@ -10,7 +10,7 @@ class Circle(Figure):
         self.name = 'circle'
 
     def get_perimeter(self):
-        return 2 * math.pi * self.radius
+        return int(2 * math.pi * self.radius)
 
     def get_area(self):
-        return (self.radius ** 2) * math.pi
+        return int((self.radius ** 2) * math.pi)

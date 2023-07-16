@@ -1,4 +1,4 @@
-from figure import Figure
+from hw2.src.figure import Figure
 
 
 class Rectangle(Figure):
@@ -7,7 +7,7 @@ class Rectangle(Figure):
             raise ValueError(f"Can't create rectangle")
         self.side_a = side_a
         self.side_b = side_b
-        self.name = 'Rectangle'
+        self.name = 'rectangle'
 
     def get_perimeter(self):
         return (self.side_a + self.side_b) * 2

@@ -1,4 +1,4 @@
-from figure import Figure
+from hw2.src.figure import Figure
 import math
 
 
@@ -16,4 +16,4 @@ class Triangle(Figure):
 
     def get_area(self):
         semi_p = (self.side_a + self.side_b + self.side_c) / 2
-        return math.sqrt(semi_p * (semi_p - self.side_a) * (semi_p - self.side_b) * (semi_p - self.side_c))
+        return int(math.sqrt(semi_p * (semi_p - self.side_a) * (semi_p - self.side_b) * (semi_p - self.side_c)))

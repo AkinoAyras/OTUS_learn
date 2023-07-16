@@ -1,4 +1,4 @@
-from figure import Figure
+from hw2.src.figure import Figure
 
 
 class Square(Figure):
