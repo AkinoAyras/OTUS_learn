@@ -1,6 +1,0 @@
-.idea
-venv
-.pytest_cache
-/requirements.txt
-/hw2/test/__init__.py
-/hw2/__init__.py
